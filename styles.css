@@ -1,0 +1,332 @@
+/* General body styling */
+body {
+  margin: 0;
+  background: #f6f6f6;
+  color: #222;
+}
+
+/* Gallery container */
+.gallery {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 340px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Individual gallery items */
+.banner {
+	display: inline-block;
+	margin: auto;
+	width: 100%;
+}
+
+
+
+/* Images span the device width */
+.banner img {
+  display: block;
+  margin: auto;
+  width: 75%;
+  height: auto;
+  border: 1px solid #888;
+  border-radius: 8px;
+  
+}
+
+.quote {
+	font-size: 18px;
+	display: block;
+	margin: auto;
+	width: 70%;
+	text-align: center;
+}
+
+/* Volunteer section styling */
+
+
+
+.announcement {
+  font-family: Verdana, sans-serif;
+  background: #fff;
+  max-width: 700px;
+  margin: 15px auto;
+  border: 1px solid #888;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  padding: 1.2rem 1.2rem;
+  text-align: center;
+}
+
+.announcement p {
+  margin-bottom: 1rem;
+  color: #0f5694;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.announcement img {
+  display: block;
+  margin: auto;
+  width: 75%;
+  height: auto;
+  
+}
+	
+.announcement form input[type="submit"] {
+  background-color: #0f5694;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.8em 2em;
+  font-size: 1.1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.18s;
+}
+
+.announcement form input[type="submit"]:hover {
+  background-color: #164a7e;
+}
+
+
+
+/*table */
+
+
+
+	.container {
+		display: block;
+		font-family: Georgia, serif;
+        border: 2px solid #888;
+        border-radius: 8px;
+		background-image: url("whitebackground.jpg");
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+        padding: 15px;
+        width: 330px;
+        margin: 1.2em auto;
+		box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  		/* transition: transform 0.2s ease; */
+        }
+
+	.subcontainer {
+		display: block;
+		width: 305px;
+		margin: 1.2em auto;
+		font-family: Georgia, serif;
+		border: 1px solid #888;
+		border-radius: 8px;
+		box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+		background-color: rgba(255, 255, 235, 0.75);
+		opacity: 0.8;
+		}
+
+	.subcontainer p {
+		display: block;
+		font-size: 18px;
+		margin: 15px auto;
+  		border-radius: 8px;
+  		padding: 1.2rem 1.2rem;
+  		text-align: center;
+		color: black;
+		}
+
+	.subcontainer iframe {
+		overflow: clip;
+		scrollbar-width: none;
+		}
+
+
+	.button {
+		display: block;
+		margin: auto;
+		box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+		text-shadow: -1px -1px 1px  black;
+		}
+
+	.button:active {
+  		background-color: #004085; 
+		text-shadow: 1px 1px 2px black;
+  		box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.4); 
+  		transform: translateY(1px);
+		}
+
+	.calendar {
+		padding: 5px;
+		}
+
+	.main_title {
+		display: block;
+		margin: 1.2em auto;
+		width: 280px;
+		padding: 2px;
+		background-color: #0f5694;
+		opacity: 0.6;
+		position: absolute;
+		bottom: 0;
+		}
+
+	#the_title {
+		opacity: 1;
+		z-index: 2;
+		}
+
+	h1 {
+	    display: block;
+		margin: auto;
+		font-family: 'Verdana', sans-serif;
+        text-align: center;
+		text-shadow: 1px 1px 2px black;
+        font-size: 2.5em;
+        font-weight: bold;
+		color: #0f5694;
+		width: 300px;
+		padding: 8px;
+        }
+
+	h2 {
+	    display: block;
+		margin: auto;
+		font-family: 'Verdana', sans-serif;
+        text-align: center;
+		text-shadow: 1px 1px 2px black;
+        font-size: 1.9em;
+        font-weight: bold;
+		color: white;
+		background-color: #0f5694;
+		width: 300px;
+		padding: 8px;
+		border: 0.5px solid black;
+        }
+	
+	h3 {
+		font-family: 'Verdana', sans-serif;
+        text-align: center;
+		text-shadow: 1px 1px 2px black;
+        font-size: 1.6em;
+        font-weight: bold;
+		color: white;
+		background-color: #0f5694;
+		width: 300px;
+		padding: 15px;
+		border: 0.5px solid black;
+
+		}
+
+	h4 {
+		font-family: 'Verdana', sans-serif;
+        text-align: center;
+		text-shadow: 1px 1px 1px black;
+		font-size: 1.2em;
+		color: white;
+		background-color: #0f5694;
+		width: 300px;
+		padding: 8px;
+		border: 0.5px solid black;
+		}
+
+	h5 {
+		font-family: 'Verdana', sans-serif;
+        text-align: center;
+		font-size: 1.1em;
+		}
+
+    table {
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+        width: 100%;
+        border-collapse: collapse;
+        margin: 24px 0;
+	    }
+
+   .programTable th, .programTable td {
+        padding: 12px 8px;
+        border: 1px solid #bbb;
+       
+        }
+
+    th {
+        background: #0f5694;
+        }
+
+	.left {
+	    text-align: left;
+		background: white;
+	}
+
+	.right {
+	    text-align: right;
+	    padding-left: 1.2em;
+		background: #f4f4f4;
+	}
+    
+	.section-title {
+        text-align: center;
+        font-weight: bold;
+        background: #0f5694;
+        font-size: 1.2em;
+        }
+	
+	.missionTable th, .missionTable td {
+		padding: 12px 8px;
+        border: 1px solid #bbb;
+        text-align: left;
+        }
+
+	#section-center {
+		text-align: center;
+		background-color: white;
+        }
+
+	.missionary {
+		background: #0f5694;
+		color: white;
+		}
+
+	.flag {
+		width: 250px;
+		height: 90px;
+		background: #f4f4f4;
+		}
+
+	.flag img {
+		display: block;
+		margin: auto;
+		}
+
+    .dotted {
+            border-top: 1.5px dotted #888;
+            margin: 24px 0;
+        }
+    .filter-box {
+            margin-bottom: 16px;
+            text-align: right;
+        }
+    input[type="text"] {
+            padding: 6px;
+            font-size: 1em;
+        }
+
+	#jesus {
+		display: block;
+		margin: auto;
+		width: 80px;
+		height: auto;
+		padding: 10px;
+	}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .gallery {
+    gap: 1rem;
+    padding: 0 0.5rem;
+  }
+  .volunteer {
+    padding: 1rem 0.5rem;
+  }
+}
