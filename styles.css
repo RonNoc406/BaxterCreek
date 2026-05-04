@@ -38,12 +38,11 @@ body {
 
 .quote {
 	font-size: 18px;
+	font-weight: 700px;
 	display: block;
 	margin: auto;
 	width: 70%;
 	text-align: center;
-	background-color: white;
-	opacity: 0.75;
 }
 
 /* Volunteer section styling */
