@@ -43,7 +43,7 @@ body {
 	width: 70%;
 	text-align: center;
 	background-color: white;
-	transparency: 75%;
+	opacity: 0.75;
 }
 
 /* Volunteer section styling */
