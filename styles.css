@@ -63,7 +63,7 @@ body {
 
 .announcement p {
   margin-bottom: 1rem;
-  color: #0f5694;
+  color: #AA336A;
   font-size: 18px;
   font-weight: 500;
 }
@@ -104,7 +104,7 @@ body {
         border: 2px solid #888;
         border-radius: 8px;
 		background-image: url("rose_background.png");
-		background-opacity: 0.9;
+		background-opacity: 0.8;
 		background-repeat: no-repeat;
 		background-position: center center;
 		background-size: cover;
@@ -166,7 +166,7 @@ body {
 		margin: 1.2em auto;
 		width: 280px;
 		padding: 2px;
-		background-color: #0f5694;
+		background-color: #AA336A;
 		opacity: 0.6;
 		position: absolute;
 		bottom: 0;
@@ -185,7 +185,7 @@ body {
 		text-shadow: 1px 1px 2px black;
         font-size: 2.5em;
         font-weight: bold;
-		color: #0f5694;
+		color: #AA336A;
 		width: 300px;
 		padding: 8px;
         }
@@ -199,7 +199,7 @@ body {
         font-size: 1.9em;
         font-weight: bold;
 		color: white;
-		background-color: #0f5694;
+		background-color: #AA336A;
 		width: 300px;
 		padding: 8px;
 		border: 0.5px solid black;
@@ -212,7 +212,7 @@ body {
         font-size: 1.6em;
         font-weight: bold;
 		color: white;
-		background-color: #0f5694;
+		background-color: #AA336A;
 		width: 300px;
 		padding: 15px;
 		border: 0.5px solid black;
@@ -225,7 +225,7 @@ body {
 		text-shadow: 1px 1px 1px black;
 		font-size: 1.2em;
 		color: white;
-		background-color: #0f5694;
+		background-color: #AA336A;
 		width: 300px;
 		padding: 8px;
 		border: 0.5px solid black;
@@ -253,7 +253,7 @@ body {
         }
 
     th {
-        background: #0f5694;
+        background: #AA336A;
         }
 
 	.left {
@@ -270,7 +270,7 @@ body {
 	.section-title {
         text-align: center;
         font-weight: bold;
-        background: #0f5694;
+        background: #AA336A;
         font-size: 1.2em;
         }
 	
@@ -286,7 +286,7 @@ body {
         }
 
 	.missionary {
-		background: #0f5694;
+		background: #AA336A;
 		color: white;
 		}
 
